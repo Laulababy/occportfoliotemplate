@@ -15,6 +15,10 @@ import portrait from '../../public/images/portrait.jpg'
 import gallery1 from '../../public/images/gallery/gallery1.jpg'
 import gallery2 from '../../public/images/gallery/gallery2.jpg'
 import gallery3 from '../../public/images/gallery/gallery3.jpg'
+import Gallery4 from '../../public/image/gallery/gallery4.jpg'
+
+' from '@/components/Gallery'
+
 /**
  * END IMPORTING IMAGES
  */
@@ -25,12 +29,12 @@ import gallery3 from '../../public/images/gallery/gallery3.jpg'
  * ⚠️ Be sure to update your lastUpdated when you edit
  */
 export const sitemetadata: Sitemetadata = {
-  domain: 'occeofportfolio.netlify.app',
-  title: 'Your Name',
-  firstName: 'George',
-  lastName: 'Washington',
-  description: "Replace with a description of you that's 145-160 characters.",
-  footer: 'Your Name | All rights reserved',
+  domain: 'rickardsrumble.com',
+  title:  'Laura F. Rickards 
+  firstName: 'Laura',
+  lastName: 'Rickards',
+  description: "Rickards.",
+  footer: 'The One and Only | All rights reserved',
   metaimage: metaimage,
   lastUpdated: '7/2/2024',
 }
@@ -48,9 +52,9 @@ export const sitemetadata: Sitemetadata = {
  */
 export const intro: Intro = {
   portrait: portrait,
-  portraitAlt: 'Describe your profile picture',
+  portraitAlt: 'Woman in black wool hat with EOF program logo.',
   emoji: '👋',
-  description: `Hello <strong>I'm Ryan</strong>. I'm a graduate of Ocean County College. I enjoy <em>solving problems</em> and helping others with their goals.`,
+  description: ``,
   buttons: [
     {
       label: 'Download Resume',
@@ -65,7 +69,11 @@ export const intro: Intro = {
       alt: 'Visit my LinkedIn profile',
     },
   ],
-}
+}link: 'www.nobodyaskedlara.com'
+style: 'outline',
+icon: React.createElement(FaLinkedin),
+alt: 'Visit my Blog',
+},
 
 /**
  * ABOUT SECTION - In one or two paragraphs,
