@@ -17,7 +17,7 @@ import gallery2 from '../../public/images/gallery/gallery2.jpg'
 import gallery3 from '../../public/images/gallery/gallery3.jpg'
 import Gallery4 from '../../public/image/gallery/gallery4.jpg'
 
-' from '@/components/Gallery'
+
 
 /**
  * END IMPORTING IMAGES
@@ -30,7 +30,7 @@ import Gallery4 from '../../public/image/gallery/gallery4.jpg'
  */
 export const sitemetadata: Sitemetadata = {
   domain: 'rickardsrumble.com',
-  title:  'Laura F. Rickards 
+  title:  'Laura F. Rickards',
   firstName: 'Laura',
   lastName: 'Rickards',
   description: "Rickards.",
